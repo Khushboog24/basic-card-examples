@@ -1,0 +1,11 @@
+<div class="range-slider">
+  <input type="range" class="slider-thumb thumb-lower" [(ngModel)]="lowerValue" (input)="updateRange()">
+  <input type="range" class="slider-thumb thumb-upper" [(ngModel)]="upperValue" (input)="updateRange()">
+  <div class="slider-range" [style.width]="rangeWidth"></div>
+  <div class="text">
+
+  <div class="leftText">$1</div>
+  <div class="rightText">$112</div>
+
+  </div>
+</div>

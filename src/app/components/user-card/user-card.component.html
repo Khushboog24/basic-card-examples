@@ -1,0 +1,55 @@
+<div class="row container">
+  <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 mb-4" *ngFor="let d of data">
+    <div class="card border-left-primary h-100">
+      <div class="card-body">
+        <div class="row no-gutters divide-1">
+          <div class="col-3 profileImage">
+            <img class="image" src="{{ icon_path }}{{ d.img }}" />
+          </div>
+          <div class="col-9 profileInfo">
+            <div class="font-weight-bold text-primary name">
+              {{ d.name }}
+            </div>
+            <div class="font-weight-bold text-primary row reviews">
+              <div id="starBox" class="col-2 align-items-center">
+                5<img
+                  style="width: 60%; height: 58%"
+                  src="../../assets/icons/star.svg"
+                />
+              </div>
+              <div class="col-10 rev">10 Reviews</div>
+            </div>
+            <div class="row location font-weight-bold text-gray-800">
+              <div class="col-2 locationIcon">
+                <img src="../../assets/icons/locations.png" />
+              </div>
+              <div class="col-10">
+                {{ d.location }}
+              </div>
+            </div>
+            <div class="row hand font-weight-bold text-gray-800">
+              <div class="col-2 handIcon">
+                <img src="../../assets/icons/hand.png" />
+              </div>
+              <div class="col-10">
+                {{ d.skills }}
+              </div>
+            </div>
+            <div class="row calendar font-weight-bold text-gray-800">
+              <div class="col-2 calendarIcon">
+                <img src="../../assets/icons/calendar.png" />
+              </div>
+              <div class="col-6" style="margin: auto">Today</div>
+              <!-- <div class="col-3"></div> -->
+              <div class="col-2 box">
+                <div class="marginalign">
+                  <img src="../../assets/icons/chevron-right.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="container row">
+  <div class="col-1"></div>
+  <div class="col-11">
+    <div class="favBox">Favourite</div>
+    <form class="nosubmit">
+      <input type="text" class="icon" value placeholder="Search Sitter" />
+    </form>
+    <div class="filter">
+      <img src="../../../assets/icons/filter.png" /><span>Filter</span>
+    </div>
+    <div class="formed">
+      <div class="startDateBox">
+        <div class="dateInput">Start Date</div>
+        <app-datepicker></app-datepicker>
+      </div>
+      <div class="endDateBox">
+        <div class="dateInput">End Date</div>
+        <app-datepicker></app-datepicker>
+      </div>
+      <div class="sliderBox">
+        <div class="dateInput">Price Range</div>
+        <app-slider-with-two-inputs></app-slider-with-two-inputs>
+      </div>
+
+    </div>
+    <div class="checkBoxes">
+      <div class="heading">Services</div>
+      <div class="checks" *ngFor="let c of checks">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="flexCheckDefault"
+        />
+        <label class="form-check-label" for="flexCheckDefault">
+          {{c}}
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

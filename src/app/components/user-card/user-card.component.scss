@@ -1,0 +1,99 @@
+.container {
+  margin: 1rem 2rem 0 0;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1rem;
+  .border-left-primary {
+    .card-body {
+      // width: 300px;
+      .divide-1 {
+        .profileImage {
+          .image {
+            width: 90%;
+          }
+        }
+        .profileInfo {
+          color: #695850;
+
+          .reviews {
+            font-size: 0.6rem;
+            margin-bottom: 0.3rem;
+            #starBox {
+              display: flex;
+              background-color: #fff8f0;
+              border-radius: 5px;
+              padding: 2px;
+              #img {
+                width: 5%;
+                height: 4%;
+              }
+            }
+            .rev {
+              margin: auto;
+            }
+          }
+          .name {
+
+            font-size: 0.7rem;
+            color: #624138;
+          }
+          .location {
+            font-size: 0.6rem;
+            color: #695850;
+            margin-bottom: 0.3rem;
+            .locationIcon {
+              padding: 0 3px 0 0;
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+          }
+          .hand {
+            font-size: 0.6rem;
+            color: #695850;
+            margin-bottom: 0.3rem;
+            .handIcon {
+              padding: 0 3px 0 0;
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+          }
+          .calendar {
+            font-size: 0.6rem;
+            color: #695850;
+            margin-bottom: 0.3rem;
+            .calendarIcon {
+              padding: 0 3px 0 0;
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+            .box {
+              // color: #695850;
+              // border: 1px solid grey;
+              // // padding: 1rem;
+              // border-radius: 8px;
+              .marginalign {
+                display: flex;
+                justify-content: center;
+                padding: 5px 0;
+                width: 30px;
+border-radius: 5px;
+              background-color: #f0732b;
+                // margin: auto;
+                // display: table;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
